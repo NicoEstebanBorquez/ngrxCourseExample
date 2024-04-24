@@ -1,0 +1,39 @@
+.food-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Gap between form elements */
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+.form-group label {
+  flex: 0 0 100px; /* Fixed width for labels */
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.food-form input[type="text"] {
+  flex: 1; /* Allow text fields to expand */
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-food-button {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50; /* Green color */
+  color: white;
+  cursor: pointer;
+}
+
+.add-food-button:hover {
+  background-color: #43A047; /* Darker green on hover */
+}

@@ -1,0 +1,39 @@
+<!--<form class="food-form">
+    <h2>Add a new food</h2>
+    <p> id: <input name="food_id" [(ngModel)]="food.id" type="text" /> </p>
+    <p> name: <input name="food_name" [(ngModel)]="food.name" type="text" /> </p>
+    <p> description: <input name="food_description" [(ngModel)]="food.description" type="text" /> </p>
+    <p> color: <input name="food_color" [(ngModel)]="food.color" type="text" /> </p>
+    <p> group: <input name="food_group" [(ngModel)]="food.group" type="text" /> </p>
+    <button (click)="addFood(food)">Add food</button>
+</form>-->
+
+<form class="food-form">
+    <h2>Add a new food</h2>
+    <div class="form-group">
+      <label for="food_id">id:</label>
+      <input name="food_id" [(ngModel)]="food.id" type="text" id="food_id" />
+    </div>
+    <div class="form-group">
+      <label for="food_name">name:</label>
+      <input name="food_name" [(ngModel)]="food.name" type="text" id="food_name" />
+    </div>
+    <div class="form-group">
+      <label for="food_description">description:</label>
+      <input
+        name="food_description"
+        [(ngModel)]="food.description"
+        type="text"
+        id="food_description"
+      />
+    </div>
+    <div class="form-group">
+      <label for="food_color">color:</label>
+      <input name="food_color" [(ngModel)]="food.color" type="text" id="food_color" />
+    </div>
+    <div class="form-group">
+      <label for="food_group">group:</label>
+      <input name="food_group" [(ngModel)]="food.group" type="text" id="food_group" />
+    </div>
+    <button class="add-food-button" (click)="addFood(food)">Add food</button>
+  </form>

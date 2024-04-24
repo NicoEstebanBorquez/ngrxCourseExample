@@ -1,0 +1,14 @@
+<div>
+    <h2>List of foods: {{(foods | async)?.length}}</h2>
+
+    <ul class="item-list">
+        @for (food of foods | async; track food.id) {
+        <li>
+            <span class="item-text"> {{food.name}} </span>
+            <button class="item-button" (click)="deleteFood(food)">
+                Delete
+            </button>
+        </li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,53 @@
+{
+    "foods": [
+        {
+            "id": 0,
+            "name": "tomato",
+            "description": "juicy",
+            "color": "red",
+            "group": "veggie"
+        },
+        {
+            "id": 1,
+            "name": "banana",
+            "description": "sweety and soft",
+            "color": "yellow",
+            "group": "fruit"
+        },
+        {
+            "id": 2,
+            "name": "apple",
+            "description": "crisp and sweet",
+            "color": "red",
+            "group": "fruit"
+        },
+        {
+            "id": 3,
+            "name": "orange",
+            "description": "citrusy and juicy",
+            "color": "orange",
+            "group": "fruit"
+        },
+        {
+            "id": 4,
+            "name": "grape",
+            "description": "small and sweet",
+            "color": "purple",
+            "group": "fruit"
+        },
+        {
+            "id": 5,
+            "name": "strawberry",
+            "description": "red and sweet",
+            "color": "red",
+            "group": "fruit"
+        },
+        {
+            "id": 6,
+            "name": "cucumber",
+            "description": "refreshing and crunchy",
+            "color": "green",
+            "group": "vegetable"
+        }
+    ]
+}
