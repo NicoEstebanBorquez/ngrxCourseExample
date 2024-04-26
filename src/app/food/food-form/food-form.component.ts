@@ -10,13 +10,7 @@ import { Observable } from 'rxjs';
 })
 export class FoodFormComponent implements OnInit {
 
-  food: IFood = {
-    id: 0,
-    name: "",
-    description: "",
-    color: "",
-    group: ""
-  }
+  food: IFood = {} as IFood;
 
   constructor(private store: Store<MyAppState>) {
   }
