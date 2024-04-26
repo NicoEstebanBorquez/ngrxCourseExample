@@ -10,7 +10,6 @@ import { Observable } from 'rxjs';
 })
 export class FoodFormComponent implements OnInit {
 
-  //  food:IFood;
   food: IFood = {
     id: 0,
     name: "",
@@ -25,15 +24,6 @@ export class FoodFormComponent implements OnInit {
   ngOnInit() {
 
   }
-
-  /*addFood(food:IFood){
-    let addAction:Action = {
-      type: ACTIONS.ADD_FOOD,
-      payload:Object.assign({},food)
-    }
-    this.store.dispatch(addAction)
-  }*/
-
 
   addFood(food: IFood) {
     let addAction: Action = {
